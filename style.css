@@ -1,0 +1,680 @@
+.home-style{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg,#ff9a9e 0%,#fbd786 50%,#f7797d 100%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow-x:hidden ;
+}
+
+.body{
+    background: linear-gradient(135deg,#b9ac8f 0%, #f7797d 100%);
+    color: #333;
+    text-align: center;
+    text-decoration: solid;
+    text-overflow: clip;
+    letter-spacing: 7px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(106, 68, 68);
+    position: relative;
+    z-index: 1;
+    border-radius: 8px;
+    background-size: 200%;
+    animation: 15s;
+
+}
+
+
+.Cric {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    padding: 10px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+
+.Cric a {
+    display: inline-block;
+    margin: 0 15px;
+    padding: 10px 20px;
+    background-color: #4ca1af;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Cric a:hover{
+    background: #ff5722; 
+    color: #ffffff; 
+}
+
+.cric{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.hero{
+    color: #26197c;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 0 0 40px 40px;
+    margin: 20px 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 12px (rgb(rgb(244, 171, 171), green, blue));
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+.card{
+    background: #ffffff;
+    border-radius:20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 900px;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+  overflow: hidden;
+}
+
+img.Dhoni{
+    width: 100%;
+    max-width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba (0,0,0,0.3);
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center; 
+    padding: 10px;
+    margin-top: auto; 
+    width: 100%;
+    font-size: 14px;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
+
+.donkey{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.error-body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eae2e2;
+    text-align: center;
+    padding: 60px;
+}
+
+.error{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10;
+}
+
+
+h2{
+    margin: 20px;
+    font-size: 24px;
+
+}
+
+p{    font-size: 20px;
+    margin: 10px 0;
+}
+
+a{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #db5151;
+    background-color: #3498db;
+    border-radius: 8px;
+}
+a:hover{
+    background-color:lightblue;
+}
+
+
+.box{
+    border:2px solid black;
+    padding: 10px;
+    display: inline-block;
+}
+
+.box span {
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+    margin-bottom: -2px;
+    font-size: larger;
+
+}
+
+.h2{
+    text-align: center;
+   padding: 20px;
+   background-color: #333;
+   color:whitesmoke;
+   width: 500px;
+   font-size: 28px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   letter-spacing: 3px;
+   border-radius: 8px;
+ box-shadow: 0  4px 8 px rgb(red, green, blue);
+}
+.ce{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.cric{
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bolder;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+
+}
+tbody {
+    display: block;
+   
+}
+
+tr {
+    display: block;
+    margin-bottom: 20px; 
+}
+
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+    padding: 20px; 
+}
+
+.team-box {
+    position: relative; 
+ right: 100px;
+    background-color: rgb(165, 133, 241);
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 1800px; /* Set the box width to 90px as per your requirement */
+    margin: 15px auto; /* Centers the box horizontally */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+.team-image {
+    width: 100%; 
+    height: auto; 
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+@media (max-width: 768px) {
+    .team-box {
+        padding: 15px;
+        max-width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .team-box {
+        padding: 10px;
+        max-width: 95%;
+        margin: 5px auto;
+    }
+}
+
+
+
+.team-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.team-info {
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.stats1 {
+    position: relative;
+    top:15px;
+    text-align: center;
+    font-size: 36px;
+    padding: 20px;
+    background-color: aquamarine;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 7px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.playersbody{
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#333;
+    padding: 20px;
+}
+.playerh1{
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+.h2{
+    font-size: 1.5em;
+    color: #2980b9;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.player-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+padding: 0;
+    gap: 15px;
+}
+
+.player{
+   flex: 1 1 100%;
+   margin: 0;
+    flex-direction: column-reverse;
+    border: 1px black;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid;
+    padding: 15px;
+    display: inline-block;
+    border-radius: 8px;
+    background-color:pink;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: auto;
+    text-align: center;
+}
+
+.player-info{
+    text-align: center;
+    border: #333;
+    border-radius: 1px solid black;
+    margin-bottom: 5px;
+    background-color: whitesmoke;
+    
+}
+
+.players-container > .player {
+    width: 100%;
+    max-width: 250px;
+}
+
+.player-info:nth-child(2) {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+@media (max-width: 768px) {
+    .players-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .player {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+.statsbody{
+    background-image: url(https://media.gettyimages.com/id/1692871520/photo/topshot-indias-captain-rohit-sharma-and-his-teammate-virat-kohli-run-between-the-wickets.jpg?s=612x612&w=0&k=20&c=h6tAbPdP5pSjYYVaD43yNBP06JpokjF9BmEf7fe7BKo=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.recordbody {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: lightblueviolet;
+}
+
+.recordh1 {
+    text-align: center;
+    color: #ffffff;
+    margin: 20px;
+    font-size: xx-large;
+    background-color: #007bff;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recorddetails {
+    border-radius: 8px;
+    margin: 20px auto;
+    width: auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.9);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.recorddetails:hover {
+    background-color: lightblue;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.recordsummary {
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding: 15px;
+    background-color: #5ea4ee;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+}
+
+.recordsummary:hover {
+    background-color: #0056b3;
+}
+
+.lines {
+    margin: 10px 0;
+    color: #333;
+}
+
+h2, h3, h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #555;
+}
+.content p{
+    padding: 10px;
+    background-color: black;
+    line-height: 1.7;
+    border-radius: 8px;
+}
+p{
+    margin-bottom: 1em;
+}
+
+a{
+    color: #0e1012;
+    text-decoration: underline;
+}
+ a.hover{
+    text-decoration: underline;
+ }
+
+.recordsummary{
+    font-size: 1.2em;
+}
+@media (max-width:480px){
+.recordh1{
+    font-size: 2em;
+    margin: 10px;
+}
+
+.recordsummary{
+font-size: 1.1em;
+padding: 10px;
+}
+}
+
+.recordh2{
+
+ font-family: 'Courier New', Courier, monospace;
+ font-size: 50px; 
+ font-weight: bolder;
+line-height:1.6em;
+color: #1f1717;
+background-color: #fdf2f2;
+padding: auto;
+border-radius: 8px;
+box-shawdow: 0 4px 8px rgba ;  
+text-align: center;
+
+
+}
+.lines{
+    white-space: pre-line;
+        font-weight: bolder;
+        font-size: 1.2em;
+    line-height:1.6em;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: auto;
+     box-shawdow: 0 4px 8px rgba ;  
+     border-radius: 8px;
+     text-align: center; 
+    }
+
+details summary{
+    list-style:none ;
+}
+
+.Ranking-grid{
+    display: flex;
+    flex-direction: column;
+    gap:11px;
+    padding: 10px;
+    margin-top: 60px;
+}
+
+.Brid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    align-items: center;
+    color: #ffffff; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.item {
+    background-color: rgba(255, 255, 255, 0.8); 
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #865454;
+    font-size: larger;
+    box-shadow: 0 4px 8px rgb(165, 133, 241);
+    color: #000; 
+}
+
+button {
+    padding: 60px 90px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    position: relative;
+    bottom: 45px;
+      }
+.Rank-h1{
+    text-align: center;
+    font-size: 150px;
+}
+
+.p{
+    color: #0056b3;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+    font-size: 32px;
+    line-height: 1em;
+    color: #f8f0f0;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid rgb(10, 9, 9);
+    padding: 10px;
+    border-radius: 10px;
+    }
+.Rbody{
+    
+    background-image:url(https://media.gettyimages.com/id/109290614/photo/dhaka-bangladesh-virat-kohli-of-india-raises-his-bat-on-reaching-his-century-during-the.jpg?s=612x612&w=0&k=20&c=yiu0xiZI1VLNx-7G_rz9lr0_I4x2GIj-IGeqGig0oXI=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.player-form{
+    background-color: rgba(255, 255, 255, 0.9); /*white */
+    padding: 20px;
+    border-radius: 8px; /*  corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /*shadow */
+    margin: 20px; /* Space around the form */
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 20px;
+    widows: 100%;
+}
+
+.form-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+}
+
+.form-button {
+    position: relative;
+    bottom: 10px;
+    background-color: #865454; 
+    color: white; 
+    border: none; 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: larger; 
+    transition: background-color 0.3s; 
+}
+.login{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+
+}
+.login-box{
+    background: white;
+    padding: 60px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba (0,0,0,0.2);
+    max-width: 400px;
+    width: 100%;
+
+}
+
+.cc {
+    text-align: center;
+    text-decoration: double;
+    font-size: xx-large;
+    color: rgb(254, 247, 247);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  
+}
+
+.player-body {
+    background-image: url('https://media.gettyimages.com/id/1802864213/photo/ahmedabad-india-india-fans-cheer-a-rohit-sharma-six-during-the-icc-mens-cricket-world-cup.jpg?s=612x612&w=0&k=20&c=w_rkbFc1iGNCurmNUcq5thRK6pDO_yRYbH7XzmeLprg=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.playerp{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+}
+.recordp{
+     color: black;
+     font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.footerp{
+    color: white;
+}
+
+.RSwords{
+    font-size: larger;
+    color: rgb(0, 0, 0);
+}
